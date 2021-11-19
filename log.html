@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Log in | Istalim Delivery</title>
+	<link rel="stylesheet" type="text/css" href="csslog.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <section id="log-in">
+     
+      <div class="nav-wrapper">
+        <nav class="navbar">
+             <!-- logopic -->
+             <a href="../main.html"> <img src="../img/delivery.png"></a>
+          <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <ul class="nav">
+            <li class="nav-item"><a href="#">About</a></li>
+            <li class="nav-item"><a href="#">services</a></li>
+            <li class="nav-item"><a href="#">Contact Us</a></li> 
+          </ul>  
+        </nav>
+      </div>
+         <!-- twoButton -->
+
+
+      <div class="right-item">
+        <a href="log in/log.html"><button class="btnOne"> Log in</button></a>
+        <a href="../sign up/sign.html"><button  class="btnTwo"> sign up</button></a>
+      </div>
+
+      <div class="left-item">
+      	<img src="../img/Group 85.png">
+      </div>
+
+      <div class="log-in-box">
+      	<h1>Log In</h1>
+      	<div class="text">
+      	   <p>New User ?</p>
+      	   <a href="#sign-up">Create An Account</a>
+      	</div>
+      	<form>
+
+          <div class="inputBox">
+              <input type="text" name="" required="required" placeholder="E-mail">
+          </div>
+
+          <div class="inputBox">
+              <input type="password" name="" required="required" placeholder="Password" id="myInput">
+              <span class="eye" onclick="myFunction()">
+                <i id="hide1" class="fa fa-eye"></i>
+                <i id="hide2" class="fa fa-eye-slash"></i>
+              </span>
+          </div>
+      </form>
+      <a><button class="btn3">Log in</button></a>
+    </div>
+  </section>
+
+  <script>
+    function myFunction() {
+    var x = document.getElementById("myInput");
+    var y = document.getElementById("hide1");
+    var z = document.getElementById("hide2");
+    
+    if ( x.type === 'password') {
+        x.type = "text";
+        y.style.display = "block";
+        z.style.display = "none";
+    }
+    else{
+        x.type = "password";
+        y.style.display = "none";
+        z.style.display = "block";
+    }
+}</script>
+
+</body>
+</html>

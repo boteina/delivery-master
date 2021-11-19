@@ -1,0 +1,428 @@
+/*  #f9ada3 #b076b9 #FFC9BB*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px ;
+}
+
+.home{
+  padding-top: 10px;
+}
+
+
+.page-wrapper {
+    width: 100%;
+    height: auto;
+  }
+  .nav-wrapper {
+    width: 100%;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    /* background-color: #fff; */
+  }
+/* firstsectionHomepage */
+/* NAVIGATION */
+
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items:center;
+    height: 70px;
+    /* overflow: hidden; */
+    position: absolute;
+  
+  }
+  
+  .navbar img {
+    height: 150px;
+    width: auto;
+    justify-self: start;
+    margin-left: 20px;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-self: center;
+    
+  }
+  
+  .nav-item a {
+      
+    color: #f9ada3 ;
+    font-size: 30%;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s ease-out;
+  }
+  
+   a:hover {
+    color: #B076B9;
+    cursor: pointer;
+  }
+
+
+.right-item{
+    float: right;
+}
+.right-item button{
+   position: absolute;
+   top: 7%;
+   width: 10%;
+   height: 50px;
+   border-color: rgba(255, 255, 255, 0.493);
+   border-radius: 30px; 
+   background-color:#B076B9;
+   color: white;
+   font-size: 30%;
+   font-weight: 800;
+}
+
+.right-item button:hover{
+    cursor: pointer;
+    background-color: #f9ada3;
+    color: #fff;
+    cursor: pointer;
+}
+.right-item .btnOne{
+ right: 28%;
+
+}
+.right-item .btnTwo{
+    right: 15%;    
+}
+.left-item{
+    float: left;
+}
+h1{
+    margin-left: 22%;
+    font-size: 70%;
+}
+.left-item h1{
+  margin-top: 25%;
+}
+strong{
+    color: #ee7dff;
+}
+
+p{
+    font-size: 30%; 
+    word-wrap: break-word; 
+    margin-top: 30px;
+
+}
+.left-item p{
+  margin-left: 30%;
+}
+.homeBtn{
+    width: 250px;
+    height: 70px;
+    border-color: rgba(255, 255, 255, 0.493);
+    border-radius: 30px; 
+    background-color:#B076B9;
+    color: white;
+    font-size: 30%;
+    font-weight: 800;
+    margin-left: 170px;
+    margin-top: 10px;
+}
+
+
+.homeBtn:hover{
+    cursor: pointer;
+    background-color: #f9ada3;
+    color: #fff;
+    cursor: pointer;
+}
+.sent{
+    color: #f9ada3 ;
+    font-size: 30%;
+    font-weight: 200;
+    margin-left: 170px;
+    text-decoration: underline;
+}
+.left-item .Explore{
+  display: flex;
+  position: absolute;
+}
+
+.Explore .cities{
+    font-size: 70%;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+.Explore #btnWilaya{
+  background-color: black;
+  color:white;
+  width: 170px;
+  height: 25px;
+  margin-left: 300px;
+  margin-top: 30px;
+  padding-right: 90px;
+
+}
+
+.About{
+  margin-top: 650px;
+  margin-left: 200px;
+  background-color: black;
+  color: white;
+  width: 900px;
+  height: 500px;
+
+}
+.About .box h2{
+  margin-top: 60px;
+  margin-left: 30px;
+}
+
+
+.box img{
+  float: right;
+  padding:1%;
+  height: 500px;
+  width: 440px;
+}
+
+.box p{
+  text-align: center;
+  margin-left: 15px;
+  font-size: 16px;
+}
+
+
+
+h2{
+  font-size: 30px;
+  text-align: center;
+  margin-top: 70px;
+}
+h3{
+  margin-left: 140px;
+  font-size: 60px;
+}
+h4{
+  font-size: 30px;
+  padding: 60px 0 0 100px;
+}
+
+.know{
+  width: 100%;
+  height: 150px;
+}
+
+.know p{
+  font-size: 16px;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+}
+
+.app{
+  background-color:  #FFC9BB;
+  width: 100%;
+  height: 450px;
+  margin-top: 50px;
+}
+
+.app .apptext p{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.app img{
+  float: right;
+  height: 450px;
+}
+.app .imgs{
+  padding-top:40px;
+}
+.app .imgs img{
+  display:block;
+  width: 300px;
+  height: 120px;
+}
+.app .imgs .im2{
+  padding-top:19px;
+  padding-left:19px;
+  width: 280px;
+  height:100px;
+}
+
+
+
+
+.join{
+  height: 700px;
+}
+.boxesjoin{
+  display: flex;
+  position: absolute;
+  margin-top: 50px;
+}
+
+.Join .boxesjoin .boxjoin{
+  flex: 1;
+  margin: 1rem;
+  border-radius: 5px;
+  line-height: 25px;
+}
+
+
+.Join .boxjoin .text {
+  font-size: 25px;
+}
+.Join a{
+  font-size: 20px;
+}
+
+.Join .text p{
+  font-size:20px;
+
+}
+.Join img{
+  padding-left:60px;
+  width: 370px;
+  height: 250px;
+}
+
+footer{
+  margin-top: 500px;
+   background-color: #FFC9BB;
+   height: auto;
+   width: 100%;
+
+}
+
+.foot h1{
+  float:right;
+  font-size:70px;
+  padding-right:100px;
+  text-align:center;
+  color:#b076b9;
+}
+
+.name{
+  float: left;
+  margin-left:50px;
+}
+
+.name h2{
+  font-size: 45px;
+}
+
+
+.name img{
+  display:block;
+  width: 300px;
+  height: 120px;
+}
+.name .im2{
+  padding-bottom:19px;
+  padding-left:19px;
+  width: 283px;
+  height:100px;
+}
+
+
+
+.serv ul{
+  list-style:none;
+}
+
+.serv h5{
+  padding-top:100px;
+  text-align:center;
+  font-size:28px;
+}
+
+.serv li{
+  line-height: 25px;
+}
+
+.serv a{
+  padding-left:155px;
+  text-decoration:none;
+  font-size:23px;
+
+}
+.icons{
+  text-align:center;
+}
+
+.icons a{
+  color:#b076b9;
+  text-decoration:none;
+  padding: 20px;
+}
+
+.icons a i{
+  color:#b076b9;
+  font-size: 40px;
+}
+
+footer .foot p{
+  font-size:18px;
+  padding-bottom:30px;
+  padding-left: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MOBILE MENU & ANIMATION */
+
+.menu-toggle .bar{
+    width: 25px;
+    height: 3px;
+    background-color: #3f3f3f;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .menu-toggle {
+    justify-self: end;
+    margin-right: 25px;
+    display: none;
+  }
+  
+  .menu-toggle:hover{
+    cursor: pointer;
+  }
+  
+  #mobile-menu.is-active .bar:nth-child(2){
+    opacity: 0;
+  }
+  
+  #mobile-menu.is-active .bar:nth-child(1){
+    -webkit-transform: translateY(8px) rotate(45deg);
+    -ms-transform: translateY(8px) rotate(45deg);
+    -o-transform: translateY(8px) rotate(45deg);
+    transform: translateY(8px) rotate(45deg);
+  }
+  
+  #mobile-menu.is-active .bar:nth-child(3){
+    -webkit-transform: translateY(-8px) rotate(-45deg);
+    -ms-transform: translateY(-8px) rotate(-45deg);
+    -o-transform: translateY(-8px) rotate(-45deg);
+    transform: translateY(-8px) rotate(-45deg);
+  }

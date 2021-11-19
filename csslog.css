@@ -1,0 +1,211 @@
+/*  #f9ada3 #b076b9 #FFC9BB*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px ;
+}
+
+.home{
+  padding-top: 10px;
+}
+
+
+.page-wrapper {
+    width: 100%;
+    height: auto;
+  }
+  .nav-wrapper {
+    width: 100%;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    /* background-color: #fff; */
+  }
+/* firstsectionHomepage */
+/* NAVIGATION */
+
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items:center;
+    height: 70px;
+    /* overflow: hidden; */
+    position: absolute;
+  
+  }
+  
+  .navbar img {
+    height: 150px;
+    width: auto;
+    justify-self: start;
+    margin-left: 20px;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-self: center;
+    
+  }
+  
+  .nav-item a {
+      
+    color: #f9ada3 ;
+    font-size: 30%;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s ease-out;
+  }
+  
+   a:hover {
+    color: #B076B9;
+    cursor: pointer;
+  }
+
+
+.right-item{
+    float: right;
+}
+.right-item button{
+   position: absolute;
+   top: 7%;
+   width: 150px;
+   height: 50px;
+   border-color: rgba(255, 255, 255, 0.493);
+   border-radius: 30px; 
+   background-color:#B076B9;
+   color: white;
+   font-size: 30%;
+   font-weight: 800;
+}
+
+.right-item button:hover{
+    cursor: pointer;
+    background-color: #f9ada3;
+    color: #fff;
+    cursor: pointer;
+}
+.right-item .btnOne{
+ right: 28%;
+
+}
+.right-item .btnTwo{
+    right: 15%;    
+}
+.left-item{
+    float: left;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.log-in-box{
+  float: right;
+  margin-right: 100px;
+  margin-top: 150px;
+  width: 460px;
+  height: 460px;
+  background-color:  transparent;
+  border: 3px solid #f9ada3;
+  box-shadow: 3px black;
+}
+
+.log-in-box h1{
+  font-size: 35px;
+  color: #B076B9;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 30px;
+}
+.log-in-box .text {
+  padding-left: 30px;
+  display: flex;
+  font-size: 15px;
+}
+.log-in-box .text a{
+  padding-left: 10px;
+  text-decoration: none;
+}
+form {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+
+.inputBox{
+  position: relative;
+}
+
+.inputBox input,
+ .inputBox textarea{
+  width: 100%;
+  font-size: 16px;
+  border: none;
+  border-bottom: 2px solid #B076B9;
+  outline: none;
+  resize: none;
+  color: #f9ada3;
+}
+::placeholder{
+  color: #B076B9;
+}
+
+.eye{
+  position: absolute;
+ font-size: 30%;
+ color: #f9ada3;
+ top: 40px;
+ right: 10px;
+}
+
+#hide1{
+  display: none;
+}
+
+.forgot{
+  float: right;
+  padding-right: 20px;
+  font-size: 15px;
+  padding-top: 20px;
+  color: #f9ada3;
+}
+
+.btn3{
+  width: 120px;
+  height: 50px;
+  border-color: rgba(255, 255, 255, 0.493);
+  border-radius: 30px; 
+  background-color:#B076B9;
+  color: white;
+  font-size: 20%;
+  font-weight: 700;
+  margin-left: 170px;
+}
+
+/* MOBILE MENU & ANIMATION */
+.menu-toggle .bar{
+    width: 25px;
+    height: 3px;
+    background-color: #3f3f3f;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .menu-toggle {
+    justify-self: end;
+    margin-right: 25px;
+    display: none;
+  }
+  
+  .menu-toggle:hover{
+    cursor: pointer;
+  }
+
